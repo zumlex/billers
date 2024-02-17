@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92C712E2B802A4000B628E9 /* TopupConnectApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92C712D2B802A4000B628E9 /* TopupConnectApiHandler.swift */; };
+		C92C71522B802F5600B628E9 /* GiftApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92C71512B802F5600B628E9 /* GiftApiHandler.swift */; };
 		C95B89BD2B7DB11300536E49 /* canceltransferrequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B89BC2B7DB11300536E49 /* canceltransferrequest.swift */; };
 		C95B89BF2B7DB13400536E49 /* estimatepricerequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B89BE2B7DB13400536E49 /* estimatepricerequest.swift */; };
 		C95B89C12B7DB14700536E49 /* ListTransferRecordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B89C02B7DB14700536E49 /* ListTransferRecordRequest.swift */; };
@@ -156,6 +158,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C92C712D2B802A4000B628E9 /* TopupConnectApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopupConnectApiHandler.swift; sourceTree = "<group>"; };
+		C92C71512B802F5600B628E9 /* GiftApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftApiHandler.swift; sourceTree = "<group>"; };
 		C95B89BC2B7DB11300536E49 /* canceltransferrequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canceltransferrequest.swift; sourceTree = "<group>"; };
 		C95B89BE2B7DB13400536E49 /* estimatepricerequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estimatepricerequest.swift; sourceTree = "<group>"; };
 		C95B89C02B7DB14700536E49 /* ListTransferRecordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTransferRecordRequest.swift; sourceTree = "<group>"; };
@@ -315,6 +319,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92C712B2B80290500B628E9 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				C92C712C2B8029C400B628E9 /* billers */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		C92C712C2B8029C400B628E9 /* billers */ = {
+			isa = PBXGroup;
+			children = (
+				C92C712D2B802A4000B628E9 /* TopupConnectApiHandler.swift */,
+				C92C71512B802F5600B628E9 /* GiftApiHandler.swift */,
+			);
+			path = billers;
+			sourceTree = "<group>";
+		};
 		C95B8A362B7DB56200536E49 /* topup */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,6 +529,7 @@
 		C9E383832B7DA1E300F348C2 = {
 			isa = PBXGroup;
 			children = (
+				C92C712B2B80290500B628E9 /* sources */,
 				C95B8A632B7DBA5C00536E49 /* services */,
 				C95B8A622B7DBA5400536E49 /* retrofit */,
 				C95B8A612B7DBA4F00536E49 /* rest */,
@@ -739,6 +761,7 @@
 				C95B8A912B7DC40600536E49 /* Estimate Price.swift in Sources */,
 				C95B8AC12B7DC75100536E49 /* Region Item.swift in Sources */,
 				C95B8A6D2B7DBBEC00536E49 /* API Handler.swift in Sources */,
+				C92C71522B802F5600B628E9 /* GiftApiHandler.swift in Sources */,
 				C95B8A872B7DC2E800536E49 /* Currency.swift in Sources */,
 				C95B8A532B7DB96000536E49 /* Ordered Amount.swift in Sources */,
 				C95B8ABB2B7DC6F700536E49 /* Provider Status Item.swift in Sources */,
@@ -759,6 +782,7 @@
 				C9E383902B7DA1E300F348C2 /* intergrated_billersApp.swift in Sources */,
 				C95B8AED2B7DCA3500536E49 /* Conversion Rates.swift in Sources */,
 				C95B8AE72B7DC9E600536E49 /* Category.swift in Sources */,
+				C92C712E2B802A4000B628E9 /* TopupConnectApiHandler.swift in Sources */,
 				C95B8A692B7DBB7200536E49 /* Gift API service.swift in Sources */,
 				C95B8A772B7DC22200536E49 /* Account lookup Item.swift in Sources */,
 				C95B8A7D2B7DC28600536E49 /* Bonuse.swift in Sources */,

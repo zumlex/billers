@@ -15,3 +15,4 @@ protocol APIService {
     @GET("/")
     func getApiGatewayResponse<T>(completion: @escaping (AFDataResponse<T>) -> Void)
 }
+x
