@@ -233,6 +233,8 @@ func getLocationByCityId(apiKey: String, brandCode: String, cityId: String, call
         callback.onError("Failed to retrieve location details by city ID")
     }
 }
+
+/*
 // getCredentials
 
 // This method retrieves credentials from the Gift API.
@@ -519,3 +521,4 @@ giftApiHandler.simulateWebhook(apiKey: apiKey, webhookId: "webhookId") { result,
         // Handle error response here
     }
 }
+*/
