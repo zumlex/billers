@@ -28,36 +28,7 @@ public struct TopupConnectData {
     public let name: String
     public let amount: Double
 }
-## Gift ApiHandler
 
-Handles API requests for the Gift API.
-
-### 1. getCurrencies
-
-This method retrieves currencies from the Gift API.
-
-#### Parameters
-
-- `apiKey`: The API key required to authenticate the request.
-- `callback`: An instance of `ApiResponseCallback<CurrencyResponse>` to handle the API response. It defines two methods:
-  - `onSuccess`: Called when the API request is successful, receiving a `CurrencyResponse` object.
-  - `onError`: Called if there is an error during the API request, receiving an error message.
-
-#### Example Usage
-
-```swift
-// Initialize the GiftApiHandler
-let giftApiHandler = GiftApiHandler()
-
-// Make an API call to get currencies
-giftApiHandler.getCurrencies(apiKey: API_KEY) { result, errorMessage in
-    if let result = result {
-        // Handle successful response here
-    } else if let errorMessage = errorMessage {
-        // Handle error response here
-    }
-}
-```
 import Foundation
 
 public class TopupConnectApiHandler {
