@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "integrated-billers",
+    "path":"Sources"
     platforms: [
         .macOS(.v10_15),
     ],
