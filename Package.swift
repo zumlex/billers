@@ -1,10 +1,4 @@
-//
-//  Package.swift
-//  Billers Integrated
-//
-//  Created by okan on 19.02.2024.
-//  swift-tools-version:5.5
-
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
