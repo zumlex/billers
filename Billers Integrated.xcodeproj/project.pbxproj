@@ -11,6 +11,7 @@
 		C9B158CB2B82DB1F0094F909 /* Billers_Integrated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B158C02B82DB1F0094F909 /* Billers_Integrated.framework */; };
 		C9B158D02B82DB1F0094F909 /* Billers_IntegratedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B158CF2B82DB1F0094F909 /* Billers_IntegratedTests.swift */; };
 		C9B158D12B82DB1F0094F909 /* Billers_Integrated.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B158C32B82DB1F0094F909 /* Billers_Integrated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F30CBB2B82EC34007D62A6 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F30CBA2B82EC34007D62A6 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C9B158C42B82DB1F0094F909 /* Billers_Integrated.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Billers_Integrated.docc; sourceTree = "<group>"; };
 		C9B158CA2B82DB1F0094F909 /* Billers IntegratedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billers IntegratedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B158CF2B82DB1F0094F909 /* Billers_IntegratedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billers_IntegratedTests.swift; sourceTree = "<group>"; };
+		C9F30CBA2B82EC34007D62A6 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		C9B158B62B82DB1F0094F909 = {
 			isa = PBXGroup;
 			children = (
+				C9F30CBA2B82EC34007D62A6 /* Package.swift */,
 				C9B158DA2B82DB7C0094F909 /* sources */,
 				C9B158C22B82DB1F0094F909 /* Billers Integrated */,
 				C9B158CE2B82DB1F0094F909 /* Billers IntegratedTests */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F30CBB2B82EC34007D62A6 /* Package.swift in Sources */,
 				C9B158C52B82DB1F0094F909 /* Billers_Integrated.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 		C9B158D82B82DB1F0094F909 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -428,6 +433,7 @@
 		C9B158D92B82DB1F0094F909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
