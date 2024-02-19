@@ -3,16 +3,11 @@ import PackageDescription
 
 let package = Package(
     name: "integrated-billers",
-    path:"Sources",
-    platforms: [
-        .macOS(.v10_15),
-    ],
-
     products: [
-        .library(name: "Billers", targets: ["Billers"]),
+        .library(name: "integrated-billers", targets: ["/"]),
     ],
     targets: [
-        .target(name: "Billers"),
+        .target(name: "/"),
     ]
 
 )
