@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Alamofire
 
 protocol TopupAPIService {
     @GET("/provider/ding/GetCurrencies")

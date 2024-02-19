@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Alamofire
 
 protocol GiftApiService {
     @GET("/provider/you-got-a-gift/currencies/")
