@@ -6,15 +6,14 @@
 //
 
 import Foundation
-import Alamofire
 
 class RetrofitClient {
-    private static let BASE_URL = "https://api.kiosksrv.online"
-    private static var retrofit: Retrofit?
+    private static let baseURL = "https://your.api.url.here"
+    private static var retrofit: URLSession?
 
-    static func getRetrofit() -> Retrofit {
+    static func getRetrofit() -> URLSession {
         if retrofit == nil {
-            retrofit = Retrofit(baseURL: URL(string: BASE_URL))
+            retrofit = URLSession(configuration: .default)
         }
         return retrofit!
     }
